@@ -3,9 +3,7 @@ name: Train Model
 on:
   push:
     branches:
-      - main
       - classification_branch
-  workflow_dispatch:
 
 jobs:
   train:
