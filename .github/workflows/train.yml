@@ -3,7 +3,7 @@ name: Train Model
 on:
   push:
     branches:
-      - classification_branch
+      - classification_brnach
 
 jobs:
   train:
